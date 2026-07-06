@@ -1,0 +1,356 @@
+:root {
+    --primary: #883cb3;
+    --secondary: #fef000;
+    --accent1: #fef000;
+    --accent2: #883cb3;
+    --accent3: #ebe1ff;
+    --light: #ebe1ff;
+    --dark: #3b0764;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+.sticky-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    transition: transform 0.3s ease;
+    transform: translateY(-100%);
+}
+
+.sticky-header.visible {
+    transform: translateY(0);
+}
+
+.header-container {
+    background: linear-gradient(135deg, #883cb3 0%, #ebe1ff 100%);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.nav-container {
+    background: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    border-radius: 15px;
+}
+
+.mobile-menu {
+    transition: all 0.3s ease;
+}
+
+.nav-link {
+    position: relative;
+    transition: all 0.3s;
+}
+
+.nav-link:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 3px;
+    bottom: -5px;
+    left: 0;
+    background-color: #7d15b9;
+    transition: width 0.3s;
+    border-radius: 10px;
+}
+
+.nav-link:hover:after {
+    width: 100%;
+}
+
+.cta-button {
+    box-shadow: 0px 4px 0px #883cb3;
+    transition: all 0.2s;
+}
+
+.cta-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0px 6px 0px #883cb3;
+}
+
+.cta-button:active {
+    transform: translateY(2px);
+    box-shadow: 0px 2px 0px #883cb3;
+}
+
+.content-section {
+    margin-top: 180px;
+    min-height: 100vh;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+    .content-section {
+        margin-top: 160px;
+    }
+}
+
+.empty-state {
+    text-align: center;
+    color: #6B7280;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.empty-state i {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    color: #A2D9FF;
+}
+
+/*  */
+.title-font {
+    font-family: 'Fredoka One', cursive;
+}
+
+  .kidzee-logo-text {
+      font-family: 'Fredoka One', 'Comic Sans MS', cursive;
+      color: #883cb3;
+      -webkit-text-stroke: 2.2px #fef000;
+      paint-order: stroke fill;
+      filter: drop-shadow(2px 2px 0px rgba(0, 0, 0, 0.18));
+      display: inline-flex;
+      gap: 1.5px;
+  }
+
+  .kidzee-wrapper {
+      display: inline-block;
+  }
+
+  .kidzee-wrapper-1 { transform: rotate(-12deg) scale(1.1); margin-right: 1px; }
+  .kidzee-wrapper-2 { transform: rotate(6deg) translateY(-2px); }
+  .kidzee-wrapper-3 { transform: rotate(-6deg) translateY(1px); }
+  .kidzee-wrapper-4 { transform: rotate(12deg) translateY(-1px); }
+  .kidzee-wrapper-5 { transform: rotate(-6deg) translateY(2px); }
+  .kidzee-wrapper-6 { transform: rotate(12deg) scale(1.15) translateY(-2px); margin-left: 1px; }
+
+  .kidzee-letter {
+      display: inline-block;
+  }
+
+  @keyframes kidzeeWave {
+      0%, 100% {
+          transform: translateY(0);
+      }
+      50% {
+          transform: translateY(-7px);
+      }
+  }
+
+  /* Gentle continuous wave loop */
+  .kidzee-wrapper-1 .kidzee-letter {
+      animation: kidzeeWave 1.6s ease-in-out infinite;
+      animation-delay: 0s;
+  }
+  .kidzee-wrapper-2 .kidzee-letter {
+      animation: kidzeeWave 1.6s ease-in-out infinite;
+      animation-delay: 0.12s;
+  }
+  .kidzee-wrapper-3 .kidzee-letter {
+      animation: kidzeeWave 1.6s ease-in-out infinite;
+      animation-delay: 0.24s;
+  }
+  .kidzee-wrapper-4 .kidzee-letter {
+      animation: kidzeeWave 1.6s ease-in-out infinite;
+      animation-delay: 0.36s;
+  }
+  .kidzee-wrapper-5 .kidzee-letter {
+      animation: kidzeeWave 1.6s ease-in-out infinite;
+      animation-delay: 0.48s;
+  }
+  .kidzee-wrapper-6 .kidzee-letter {
+      animation: kidzeeWave 1.6s ease-in-out infinite;
+      animation-delay: 0.60s;
+  }
+
+  /* Faster wiggling/bouncing wave on hover */
+  .kidzee-logo-container:hover .kidzee-wrapper-1 .kidzee-letter {
+      animation: kidzeeWave 0.6s ease-in-out infinite;
+      animation-delay: 0s;
+  }
+  .kidzee-logo-container:hover .kidzee-wrapper-2 .kidzee-letter {
+      animation: kidzeeWave 0.6s ease-in-out infinite;
+      animation-delay: 0.08s;
+  }
+  .kidzee-logo-container:hover .kidzee-wrapper-3 .kidzee-letter {
+      animation: kidzeeWave 0.6s ease-in-out infinite;
+      animation-delay: 0.16s;
+  }
+  .kidzee-logo-container:hover .kidzee-wrapper-4 .kidzee-letter {
+      animation: kidzeeWave 0.6s ease-in-out infinite;
+      animation-delay: 0.24s;
+  }
+  .kidzee-logo-container:hover .kidzee-wrapper-5 .kidzee-letter {
+      animation: kidzeeWave 0.6s ease-in-out infinite;
+      animation-delay: 0.32s;
+  }
+  .kidzee-logo-container:hover .kidzee-wrapper-6 .kidzee-letter {
+      animation: kidzeeWave 0.6s ease-in-out infinite;
+      animation-delay: 0.40s;
+  }
+
+.bounce:hover {
+    animation: bounce 0.8s infinite alternate;
+}
+
+@keyframes bounce {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(-10px);
+    }
+}
+
+.float {
+    animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-15px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.pulse {
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.05);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.rotate {
+    animation: rotate 15s linear infinite;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* mision-vision */
+.mission-vision-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.mission-vision-card:hover {
+    transform: translateY(-5px);
+}
+
+.floating-shape {
+    animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-15px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+
+/* team */
+
+.carousel-container {
+    overflow: hidden;
+    border-radius: 1rem;
+}
+
+.carousel-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-slide {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.team-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-card:hover {
+    transform: translateY(-5px);
+}
+
+.carousel-btn {
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.carousel-btn:hover {
+    background-color: white;
+    transform: scale(1.1);
+}
+
+.carousel-indicators {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.carousel-indicator {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgba(26, 83, 92, 0.3);
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.carousel-indicator.active {
+    background-color: var(--primary);
+}
