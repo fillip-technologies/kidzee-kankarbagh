@@ -137,6 +137,9 @@
 
     {{-- ✅ Custom JS --}}
     <script src="{{ asset('js/app.js') }}"></script>
+
+    {{-- ✅ Announcement Poster Popup --}}
+    <x-poster-popup />
 </body>
 
 </html>
