@@ -1,55 +1,55 @@
 @php
     // If the database returns no leadership team members, use high-quality default records
-    if (!isset($leadershipTeam) || $leadershipTeam->isEmpty()) {
-        $leadershipTeam = collect([
-            (object) [
-                'name' => 'Ms. Shalini Singh',
-                'position' => 'Principal',
-                'photo' => 'images/Principle.jpg',
-                'bio' => '15+ years of experience in early education. Dedicated to fostering a happy and safe learning campus.'
-            ],
-            (object) [
-                'name' => 'Mr. Rajeev Kumar',
-                'position' => 'Director',
-                'photo' => 'images/director-sir.jpg',
-                'bio' => 'Focused on child developmental psychology and upgrading early learning infrastructure.'
-            ]
-        ]);
-    }
+    // if (!isset($leadershipTeam) || $leadershipTeam->isEmpty()) {
+    //     $leadershipTeam = collect([
+    //         (object) [
+    //             'name' => 'Ms. Shalini Singh',
+    //             'position' => 'Principal',
+    //             'photo' => 'images/Principle.jpg',
+    //             'bio' => '15+ years of experience in early education. Dedicated to fostering a happy and safe learning campus.'
+    //         ],
+    //         (object) [
+    //             'name' => 'Mr. Rajeev Kumar',
+    //             'position' => 'Director',
+    //             'photo' => 'images/director-sir.jpg',
+    //             'bio' => 'Focused on child developmental psychology and upgrading early learning infrastructure.'
+    //         ]
+    //     ]);
+    // }
 
-    if (!isset($teacherTeams) || $teacherTeams->isEmpty()) {
-        $teacherTeams = collect([
-            (object) [
-                'name' => 'Ms. Priya Sharma',
-                'position' => 'Senior Playgroup Educator',
-                'photo' => 'gallery/kidzee-10.jpeg',
-                'bio' => 'Specializes in sensory play, motor skills coordination, and early language development.'
-            ],
-            (object) [
-                'name' => 'Ms. Neha Gupta',
-                'position' => 'Nursery Class Teacher',
-                'photo' => 'gallery/kidzee-9.jpeg',
-                'bio' => 'Focuses on child-friendly logic training, early counting, and creative storytelling.'
-            ]
-        ]);
-    }
+    // if (!isset($teacherTeams) || $teacherTeams->isEmpty()) {
+    //     $teacherTeams = collect([
+    //         (object) [
+    //             'name' => 'Ms. Priya Sharma',
+    //             'position' => 'Senior Playgroup Educator',
+    //             'photo' => 'gallery/kidzee-10.jpeg',
+    //             'bio' => 'Specializes in sensory play, motor skills coordination, and early language development.'
+    //         ],
+    //         (object) [
+    //             'name' => 'Ms. Neha Gupta',
+    //             'position' => 'Nursery Class Teacher',
+    //             'photo' => 'gallery/kidzee-9.jpeg',
+    //             'bio' => 'Focuses on child-friendly logic training, early counting, and creative storytelling.'
+    //         ]
+    //     ]);
+    // }
 
-    if (!isset($specialists) || $specialists->isEmpty()) {
-        $specialists = collect([
-            (object) [
-                'name' => 'Mr. Aman Verma',
-                'position' => 'Creative Art Instructor',
-                'photo' => 'gallery/kidzee-5.jpeg',
-                'bio' => 'Inspires toddler imagination through hands-on finger painting, clay modelling, and paper crafts.'
-            ],
-            (object) [
-                'name' => 'Ms. Ritu Sen',
-                'position' => 'Music & Dance Specialist',
-                'photo' => 'gallery/kidzee-6.jpeg',
-                'bio' => 'Drives sensory development using rhythmic games, nursery singing, and interactive plays.'
-            ]
-        ]);
-    }
+    // if (!isset($specialists) || $specialists->isEmpty()) {
+    //     $specialists = collect([
+    //         (object) [
+    //             'name' => 'Mr. Aman Verma',
+    //             'position' => 'Creative Art Instructor',
+    //             'photo' => 'gallery/kidzee-5.jpeg',
+    //             'bio' => 'Inspires toddler imagination through hands-on finger painting, clay modelling, and paper crafts.'
+    //         ],
+    //         (object) [
+    //             'name' => 'Ms. Ritu Sen',
+    //             'position' => 'Music & Dance Specialist',
+    //             'photo' => 'gallery/kidzee-6.jpeg',
+    //             'bio' => 'Drives sensory development using rhythmic games, nursery singing, and interactive plays.'
+    //         ]
+    //     ]);
+    // }
 @endphp
 
 <head>
@@ -66,17 +66,54 @@
 <body class="min-h-screen py-12 px-4">
 
     <x-banner title="Our Team"
-        para1="Meet the passionate educators and staff who make Kidzee a nurturing place for young minds to flourish"
+        para1="At Kidzee, our greatest strength is our people. Our passionate teachers, caring mentors, and dedicated support staff work together to create a positive and enriching learning environment where every child feels safe, valued, and inspired. With a child-centric approach, creativity, and a commitment to excellence, our team nurtures young minds, encourages independent thinking, and helps every child reach their full potential."
         secondImage="teachers.png" />
-    <div class="max-w-6xl mx-auto">
+    <div class="max-w-6xl mx-auto px-4">
 
+        <!-- Our Teachers Feature Section -->
+        <div class="my-16 bg-gradient-to-r from-purple-50 via-pink-50 to-amber-50 rounded-3xl p-6 sm:p-10 lg:p-12 shadow-lg border border-purple-100/80 relative overflow-hidden">
+            <div class="flex flex-col lg:flex-row gap-10 items-center">
+                <!-- Teacher Image -->
+                <div class="w-full lg:w-1/2 flex justify-center">
+                    <div class="relative w-full max-w-md group">
+                        <!-- Background Glow Accent -->
+                        <div class="absolute -inset-3 bg-gradient-to-tr from-purple-400/30 via-pink-300/40 to-amber-300/40 rounded-3xl blur-xl group-hover:blur-2xl transition-all duration-300 opacity-70"></div>
+                        
+                        <!-- Image Container -->
+                        <div class="relative overflow-hidden rounded-2xl bg-white shadow-2xl border-4 border-white aspect-[4/3] sm:aspect-[16/11]">
+                            <img 
+                                src="{{ asset('images/kidzee-teacher.jpeg') }}" 
+                                alt="Our Teachers – The Heart of Kidzee Kankarbagh" 
+                                class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500 ease-out" 
+                            />
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Teacher Content -->
+                <div class="w-full lg:w-1/2 space-y-5">
+                    <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-purple-100/80 text-[#883cb3] text-xs font-bold uppercase tracking-wider">
+                        <i class="fas fa-heart text-pink-500"></i>
+                        <span>Nurturing Young Minds</span>
+                    </div>
+
+                    <h2 class="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-slate-800 leading-tight">
+                        Our Teachers – The Heart of Kidzee Kankarbagh
+                    </h2>
+
+                    <p class="text-slate-700 text-base sm:text-lg leading-relaxed text-justify">
+                        At Kidzee Kankarbagh, our team of experienced and professionally trained teachers creates a safe, happy, and nurturing environment where every child feels loved and valued. With 15–20+ years of teaching experience and regular professional training, our educators are well-versed in early childhood education and fluent in English. They understand every child's unique needs, handle mood swings and tantrums with patience and care, and focus on holistic development. We follow a strict no punishment, no shouting, and no physical discipline policy, ensuring that every child learns with confidence, joy, and a smile.
+                    </p>
+                </div>
+            </div>
+        </div>
 
         <!-- Carousel Section -->
-        <div class="mb-16">
+        <!-- <div class="mb-16">
             <div class="relative carousel-container max-w-6xl mx-auto">
                 <div class="carousel-track">
 
-                    <!-- Slide 1 - Leadership Team -->
+                    
                     <div class="carousel-slide p-4">
                         <div
                             class="bg-white rounded-3xl border-4 border-[#883cb3] shadow-[10px_10px_0px_#ebe1ff] py-12 px-12 md:px-20">
@@ -109,7 +146,7 @@
                         </div>
                     </div>
 
-                    <!-- Slide 2 - Teaching Team -->
+                    
                     <div class="carousel-slide p-4">
                         <div
                             class="bg-white rounded-3xl border-4 border-yellow-400 shadow-[10px_10px_0px_#fefcbd] py-12 px-12 md:px-20">
@@ -140,9 +177,9 @@
                                 @endforeach
                             </div>
                         </div>
-                    </div>
-
-                    <!-- Slide 3 - Specialists -->
+                    </div> -->
+        <!-- 
+                
                     <div class="carousel-slide p-4">
                         <div
                             class="bg-white rounded-3xl border-4 border-blue-400 shadow-[10px_10px_0px_#bfdbfe] py-12 px-12 md:px-20">
@@ -165,7 +202,8 @@
                                                 {{ $spec->name }}
                                             </h3>
                                             <p class="mb-3 font-bold text-sm text-blue-600 uppercase tracking-wider">
-                                                {{ $spec->position }}</p>
+                                                {{ $spec->position }}
+                                            </p>
                                             <p class="text-sm text-slate-600 leading-relaxed">{{ $spec->bio }}</p>
                                         </div>
                                     </div>
@@ -174,30 +212,30 @@
                         </div>
                     </div>
 
-                </div>
+                </div> -->
 
-                <!-- Carousel Buttons -->
-                <button class="carousel-btn absolute left-4 top-1/2 transform -translate-y-1/2 z-10" id="prevBtn">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
-                        stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
-                    </svg>
-                </button>
-                <button class="carousel-btn absolute right-4 top-1/2 transform -translate-y-1/2 z-10" id="nextBtn">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
-                        stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-                    </svg>
-                </button>
+        <!-- Carousel Buttons -->
+        <!-- <button class="carousel-btn absolute left-4 top-1/2 transform -translate-y-1/2 z-10" id="prevBtn">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+            </svg>
+        </button>
+        <button class="carousel-btn absolute right-4 top-1/2 transform -translate-y-1/2 z-10" id="nextBtn">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+            </svg>
+        </button> -->
 
-                <!-- Carousel Indicators -->
-                <div class="carousel-indicators">
-                    <span class="carousel-indicator active" data-index="0"></span>
-                    <span class="carousel-indicator" data-index="1"></span>
-                    <span class="carousel-indicator" data-index="2"></span>
-                </div>
-            </div>
+        <!-- Carousel Indicators -->
+        <!-- <div class="carousel-indicators">
+            <span class="carousel-indicator active" data-index="0"></span>
+            <span class="carousel-indicator" data-index="1"></span>
+            <span class="carousel-indicator" data-index="2"></span>
         </div>
+    </div>
+    </div> -->
 
         <!-- Team Values Section -->
         <div class="mb-16">

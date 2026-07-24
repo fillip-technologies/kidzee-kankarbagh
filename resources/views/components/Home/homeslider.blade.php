@@ -126,6 +126,7 @@
         .carousel-container {
             height: 280px;
         }
+
         .carousel-indicators {
             bottom: 20px;
         }
@@ -138,8 +139,7 @@
         <div class="carousel-track">
             @foreach ($slideImage as $img)
                 <div class="carousel-slide">
-                    <img src="{{ asset($img->slider_img) }}" alt="{{ $img->title }}"
-                        class="carousel-image">
+                    <img src="{{ asset($img->slider_img) }}" alt="{{ $img->title }}" class="carousel-image">
                 </div>
             @endforeach
         </div>
@@ -174,27 +174,35 @@
             <div class="bg-pink-300 rounded-2xl p-8 shadow-lg flex flex-col items-center">
                 <img src="{{asset('images/tiger.png')}}" alt="Play Group Program" class="w-32 h-32 mb-6">
                 <h3 class="text-white font-bold text-xl mb-2">Play Group</h3>
-                <p class="text-white text-sm mb-6">A fun-filled space where little ones make their first friends, sing songs, explore sensory games, and build a love for learning!</p>
-                <a href="{{ route('playgroup') }}" class="text-white font-semibold flex items-center gap-2">Read More <span>➜</span></a>
+                <p class="text-white text-sm mb-6">A fun-filled space where little ones make their first friends, sing
+                    songs, explore sensory games, and build a love for learning!</p>
+                <a href="{{ route('playgroup') }}" class="text-white font-semibold flex items-center gap-2">Read More
+                    <span>➜</span></a>
             </div>
-            
-            <!-- Card 3 -->
-            <div class="bg-amber-300 rounded-2xl p-8 shadow-lg flex flex-col items-center">
-                <img src="{{asset('images/din.png')}}" alt="Kindergarten Program" class="w-32 h-32 mb-6">
-                <h3 class="text-amber-950 font-bold text-xl mb-2">Kindergarten</h3>
-                <p class="text-amber-900 text-sm mb-6">Big steps for bright futures! We explore math, letters, and science through hands-on activities that make school prep exciting.</p>
-                <a href="{{ route('kindergartencollins') }}" class="text-amber-950 font-semibold flex items-center gap-2">Read More <span>➜</span></a>
-            </div>
+
+
 
             <!-- Card 2 -->
             <div class="bg-sky-400 rounded-2xl p-8 shadow-lg flex flex-col items-center">
                 <img src="{{asset('images/panda.png')}}" alt="Nursery Program" class="w-32 h-32 mb-6">
                 <h3 class="text-white font-bold text-xl mb-2">Nursery</h3>
-                <p class="text-white text-sm mb-6">Where imagination takes flight! Children build confidence and express themselves through art, storytelling, and creative play.</p>
-                <a href="{{ route('nursery') }}" class="text-white font-semibold flex items-center gap-2">Read More <span>➜</span></a>
+                <p class="text-white text-sm mb-6">Where imagination takes flight! Children build confidence and express
+                    themselves through art, storytelling, and creative play.</p>
+                <a href="{{ route('nursery') }}" class="text-white font-semibold flex items-center gap-2">Read More
+                    <span>➜</span></a>
             </div>
 
-            
+            <!-- Card 3 -->
+            <div class="bg-amber-300 rounded-2xl p-8 shadow-lg flex flex-col items-center">
+                <img src="{{asset('images/din.png')}}" alt="Kindergarten Program" class="w-32 h-32 mb-6">
+                <h3 class="text-amber-950 font-bold text-xl mb-2">Kindergarten</h3>
+                <p class="text-amber-900 text-sm mb-6">Big steps for bright futures! We explore math, letters, and
+                    science through hands-on activities that make school prep exciting.</p>
+                <a href="{{ route('kindergartencollins') }}"
+                    class="text-amber-950 font-semibold flex items-center gap-2">Read More <span>➜</span></a>
+            </div>
+
+
 
         </div>
     </section>
@@ -204,7 +212,7 @@
 </body>
 
 <script>
-    document.addEventListener('DOMContentLoaded', function() {
+    document.addEventListener('DOMContentLoaded', function () {
         const track = document.querySelector('.carousel-track');
         const slides = document.querySelectorAll('.carousel-slide');
         const prevButton = document.querySelector('.carousel-btn.prev');

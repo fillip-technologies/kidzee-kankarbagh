@@ -52,7 +52,8 @@
                 <!-- About Content Column -->
                 <div class="fade-in">
                     <h2 class="text-3xl font-bold mb-6">Our <span class="highlight-primary">Story</span></h2>
-                    <p class="text-lg mb-4">At Kidzee World, we believe that the foundation years are the most important
+                    <p class="text-lg mb-4">At Kidzee Kankarbagh, we believe that the foundation years are the most
+                        important
                         in shaping a child’s personality, creativity, and love for learning. Through playful activities,
                         innovative teaching methods, and personalized care, we create the perfect blend of learning and
                         enjoyment.</p>
@@ -66,8 +67,8 @@
 
 
 
-                    <p class="text-lg mb-6">Her philosophy was simple: <span
-                            class="font-semibold highlight-accent2">"Where Little Steps Lead to Big Dreams."</span> </p>
+                    <!-- <p class="text-lg mb-6">Her philosophy was simple: <span
+                            class="font-semibold highlight-accent2">"Where Little Steps Lead to Big Dreams."</span> </p> -->
 
 
 

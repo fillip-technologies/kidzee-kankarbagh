@@ -12,20 +12,23 @@
 
                     <!-- Left Yellow Info Section -->
                     <div class="flex flex-col justify-center items-center w-full md:w-1/2 p-6 text-center">
-                        <h3 class="text-xl font-semibold text-black">Mr. Pankaj Kumar Singh</h3>
-                        <p class="text-black italic mt-2 mb-4">"At Kidzee, we are committed to laying the strongest foundation for your child's future. We envision a place where every child feels happy, valued, and excited to learn."</p>
-                        <a href="/director-message"  
+                        <h3 class="text-xl font-semibold text-black"></h3>
+                        <p class="text-black italic mt-2 mb-4">"Our Respected Director Ma'am is inspiring our children
+                            to dream big, study with dedication, and always walk on the right path. Through her
+                            encouraging words, she is motivating every child to work hard, build good values, and strive
+                            for a bright and successful future. We are grateful for her constant guidance and
+                            blessings."</p>
+                        <a href="/directormessage"
                             class="border border-black px-6 py-2 text-black tracking-widest text-sm hover:scale-105 transition">
                             READ MORE <span class="ml-1">&gt;</span>
                         </a>
                     </div>
 
                     <!-- Right Image -->
-      <div class="w-full md:w-1/2 h-90 flex items-center justify-center">
-    <img src="{{ asset('images/kidze.png') }}" 
-         alt="Director" 
-         class="object-contain w-full h-full rounded-lg">
-</div>
+                    <div class="w-full md:w-1/2 h-90 flex items-center justify-center">
+                        <img src="{{ asset('images/director.jpeg') }}" alt="Director"
+                            class="object-contain w-full h-full rounded-lg">
+                    </div>
 
                 </div>
             </div>
@@ -37,21 +40,22 @@
 
                     <!-- Left Yellow Info Section -->
                     <div class="flex flex-col justify-center items-center w-full md:w-1/2 p-6 text-center">
-                        <h3 class="text-xl font-semibold text-black">Mr. Rakesh Kumar Singh</h3>
-                        <p class="text-black italic mt-2 mb-4">"Our goal is to create a home away from home. We focus on the holistic development of each child, ensuring they grow not just academically, but also emotionally and socially."
+                        <h3 class="text-xl font-semibold text-black"></h3>
+                        <p class="text-black italic mt-2 mb-4">"Our goal is to create a home away from home. We focus on
+                            the holistic development of each child, ensuring they grow not just academically, but also
+                            emotionally and socially."
                         </p>
-                        <a href="/principal-message"
+                        <a href="/principalmessage"
                             class="border border-black px-6 py-2 text-black tracking-widest text-sm hover:scale-105 transition">
                             READ MORE <span class="ml-1">&gt;</span>
                         </a>
                     </div>
 
                     <!-- Right Image -->
-           <div class="w-full md:w-1/2 h-80 flex items-center justify-center">
-    <img src="{{ asset('images/kidze.png') }}" 
-         alt="Principal" 
-         class="object-contain w-full h-full rounded-lg">
-</div>
+                    <div class="w-full md:w-1/2 h-80 flex items-center justify-center">
+                        <img src="{{ asset('images/kidze.png') }}" alt="Principal"
+                            class="object-contain w-full h-full rounded-lg">
+                    </div>
 
                 </div>
             </div>

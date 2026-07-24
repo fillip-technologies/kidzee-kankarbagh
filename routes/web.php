@@ -8,7 +8,7 @@ use App\Http\Controllers\Admin\EducatorsController;
 //     return view('welcome');
 // })->name('home');
 
-Route::get('/',[HomeController::class,'homePage'])->name('home');
+Route::get('/', [HomeController::class, 'homePage'])->name('home');
 Route::get('franchise', [HomeController::class, 'franchise'])->name('franchise');
 
 
@@ -33,20 +33,20 @@ Route::get('admissionenquiry', [HomeController::class, 'admissionenquiry'])->nam
 Route::get('playgroup', [HomeController::class, 'playgroup'])->name('playgroup');
 
 // gallery
-Route::get('gallerycollins', [HomeController::class, 'gallerycollins'])->name('gallerycollins');
+Route::get('image-gallery', [HomeController::class, 'gallerycollins'])->name('gallerycollins');
 
 // nursery
 Route::get('nursery', [HomeController::class, 'nursery'])->name('nursery');
 
 // kinder
-Route::get('kindergartencollins', [HomeController::class, 'kindergartencollins'])->name('kindergartencollins');
+Route::get('kindergarten', [HomeController::class, 'kindergartencollins'])->name('kindergartencollins');
 
 // kinder
-Route::get('facilitiescollinskids', [HomeController::class, 'facilitiescollinskids'])->name('facilitiescollinskids');
-Route::get('career/list',[HomeController::class,'get_carees']);
+Route::get('facilities', [HomeController::class, 'facilitiescollinskids'])->name('facilitiescollinskids');
+Route::get('career/list', [HomeController::class, 'get_carees']);
 // kinder
 Route::get('contact', [HomeController::class, 'contact'])->name('contact');
-Route::post('store/contact',[HomeController::class,'contact_store'])->name('contact.store');
+Route::post('store/contact', [HomeController::class, 'contact_store'])->name('contact.store');
 
 Route::get('/teachers', [EducatorsController::class, 'indexteacher']);
 Route::get('/teachers/list', [EducatorsController::class, 'listTeacher']);

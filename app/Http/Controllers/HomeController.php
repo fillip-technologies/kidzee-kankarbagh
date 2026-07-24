@@ -16,7 +16,7 @@ class HomeController extends Controller
     {
         $images = Slider::all();
         $gallery = Gallery::all();
-        return view('welcome',compact('images','gallery'));
+        return view('welcome', compact('images', 'gallery'));
     }
 
     // In HomeController.php
@@ -36,8 +36,8 @@ class HomeController extends Controller
     {
         return view('pages.missionvision');
     }
-    
-     // prinicpal
+
+    // prinicpal
     public function principalmessage()
     {
         return view('pages.principalmessage');
@@ -48,21 +48,21 @@ class HomeController extends Controller
     {
         return view('pages.directormessage');
     }
-    
-     // 
+
+    // 
     public function admissionenquiry()
     {
         return view('pages.admissionenquiry');
     }
 
     //team
-   public function team()
+    public function team()
     {
 
-        $teacherTeams = Teacher::where('department','Teaching Team')->get();
-        $leadershipTeam = Teacher::where('department','Leadership Team')->get();
-        $specialists = Teacher::where('department','Specialists')->get();
-        return view('pages.team',compact('teacherTeams','leadershipTeam','specialists'));
+        $teacherTeams = Teacher::where('department', 'Teaching Team')->get();
+        $leadershipTeam = Teacher::where('department', 'Leadership Team')->get();
+        $specialists = Teacher::where('department', 'Specialists')->get();
+        return view('pages.team', compact('teacherTeams', 'leadershipTeam', 'specialists'));
     }
 
     //team
@@ -70,16 +70,17 @@ class HomeController extends Controller
     {
         return view('pages.playgroup');
     }
-    
+
     //gallery
     public function gallerycollins()
-     {
+    {
+        // dd("test");
         $allGallery = Gallery::all();
-        return view('pages.gallerycollins',compact('allGallery'));
+        return view('pages.gallerycollins', compact('allGallery'));
     }
-    
-    
-     //nur
+
+
+    //nur
     public function nursery()
     {
         return view('pages.nursery');
@@ -90,44 +91,45 @@ class HomeController extends Controller
     {
         return view('pages.kindergartencollins');
     }
-    
-     //facilties
-     public function facilitiescollinskids()
+
+    //facilties
+    public function facilitiescollinskids()
     {
         return view('pages.facilitiescollinskids');
     }
-    
+
     // contact
-    
-     public function contact()
+
+    public function contact()
     {
         return view('pages.contact');
     }
-    
-    
-    public function contact_store(Request $request){
+
+
+    public function contact_store(Request $request)
+    {
         $request->validate([
-            'fullname'=>'required|string',
-            'email'=>'required',
-            'phone'=>'required',
-            'message'=>'required|string',
+            'fullname' => 'required|string',
+            'email' => 'required',
+            'phone' => 'required',
+            'message' => 'required|string',
 
         ]);
 
         $contact = Contact::create([
-            'fullname'=>$request->fullname,
-            'email'=>$request->email,
-            'phone'=>$request->phone,
-            'message'=>$request->message,
-            'subject'=>$request->subject
+            'fullname' => $request->fullname,
+            'email' => $request->email,
+            'phone' => $request->phone,
+            'message' => $request->message,
+            'subject' => $request->subject
         ]);
 
-        if($contact){
-            return redirect('/contact')->with('success','Your message has been sent successfully!');
+        if ($contact) {
+            return redirect('/contact')->with('success', 'Your message has been sent successfully!');
         }
 
     }
-    
+
     public function get_carees()
     {
         $careers = Contact::all();

@@ -154,8 +154,7 @@
                     <span class="faq-arrow text-pink-500"><i class="fas fa-chevron-down"></i></span>
                 </div>
                 <div class="faq-answer bg-blue-50 text-blue-800">
-                    <p>Our regular school hours are from 8:30 AM to 3:00 PM. We also offer before-care starting at 7:30
-                        AM and after-care until 5:30 PM for working parents.</p>
+                    <p>Our regular school hours are from 8:30 AM to 12:30 PM.</p>
                 </div>
             </div>
 
@@ -171,13 +170,12 @@
                     <span class="faq-arrow text-pink-500"><i class="fas fa-chevron-down"></i></span>
                 </div>
                 <div class="faq-answer bg-pink-50 text-pink-800">
-                    <p>We maintain a low student-teacher ratio of 10:1 in our preschool programs and 15:1 in elementary
-                        classes to ensure personalized attention for each child.</p>
+                    <p>We maintain a low student-teacher ratio of 10:1.</p>
                 </div>
             </div>
 
             <!-- FAQ Item 3 -->
-            <div class="faq-item">
+            <!-- <div class="faq-item">
                 <div class="faq-question text-yellow-600 text-xl">
                     <div class="flex items-center">
                         <div class="animal-icon bg-yellow-100">
@@ -191,7 +189,7 @@
                     <p>Yes! We provide nutritious morning and afternoon snacks. Parents can choose to pack lunch or
                         purchase our hot lunch program, which offers balanced meals prepared daily.</p>
                 </div>
-            </div>
+            </div> -->
 
             <!-- FAQ Item 4 -->
             <div class="faq-item">
@@ -205,8 +203,8 @@
                     <span class="faq-arrow text-pink-500"><i class="fas fa-chevron-down"></i></span>
                 </div>
                 <div class="faq-answer bg-blue-50 text-blue-800">
-                    <p>We offer a variety of extracurricular activities including soccer, ballet, coding, art club,
-                        music lessons, and science explorers. Activities vary by season and age group.</p>
+                    <p>We offer a variety of extracurricular activities including Dance, Art , Craft
+                        and science explorers. Activities vary by season and age group.</p>
                 </div>
             </div>
 
@@ -264,11 +262,11 @@
         <!-- Footer -->
         <div class="mt-16 text-center text-blue-500 relative z-10">
             <p class="text-lg">Have more questions? Contact us at <span
-                    class="text-pink-500 font-bold">kidzee@gmail.com</span> or call <span
-                    class="text-pink-500 font-bold">000000000</span></p>
+                    class="text-pink-500 font-bold">kidzee206@kidzee.com</span> or call <span
+                    class="text-pink-500 font-bold">9693743658</span></p>
             <div class="mt-6 flex justify-center space-x-4">
                 <div class="bg-blue-100 text-blue-600 px-4 py-2 rounded-full">Admissions Open!</div>
-                <div class="bg-pink-100 text-pink-600 px-4 py-2 rounded-full">winter Program Available</div>
+                <!-- <div class="bg-pink-100 text-pink-600 px-4 py-2 rounded-full">winter Program Available</div> -->
             </div>
         </div>
     </div>

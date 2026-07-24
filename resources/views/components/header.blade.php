@@ -141,9 +141,8 @@
     <header class="bg-white shadow-sm">
         <!-- Main navigation -->
         <nav class="container mx-auto px-4 py-2 flex justify-between items-center">
-            <a href="{{ route('home') }}" class="flex items-center kidzee-logo-container">
-                <img src="{{ asset('gallery/Kidzee-logo.png') }}" alt="Kidzee Logo" class="logo-img object-contain">
-                <div class="ml-3">
+            <a href="{{ route('home') }}" class="flex items-center kidzee-logo-container ml-10 md:ml-20">
+                <div>
                     <h1 class="text-2xl md:text-3xl font-extrabold kidzee-logo-text leading-none select-none">
                         <span class="kidzee-wrapper kidzee-wrapper-1"><span class="kidzee-letter">K</span></span>
                         <span class="kidzee-wrapper kidzee-wrapper-2"><span class="kidzee-letter">I</span></span>
@@ -197,7 +196,7 @@
 
                 </div>
 
-                <a href="{{route('gallerycollins')}}"
+                <a href="{{ route('gallerycollins') }}"
                     class="text-gray-700 font-medium nav-link hover:text-blue-600">Gallery</a>
                 <!-- <a href="{{ route('franchise') }}"
                     class="text-gray-700 font-medium nav-link hover:text-blue-600">Franchise</a> -->

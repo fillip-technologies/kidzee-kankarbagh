@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@yield('title', 'KIDZEE')</title>
+    <link rel="icon" href="data:;base64,=">
 
     {{-- ✅ Tailwind CSS CDN --}}
     <script src="https://cdn.tailwindcss.com"></script>
@@ -120,14 +121,14 @@
     {{-- ✅ Floating WhatsApp + Call Button --}}
     <div class="fixed bottom-20 sm:bottom-8 md:bottom-10 right-6 flex flex-col gap-3 z-50">
         {{-- WhatsApp Button --}}
-        <a href="#" target="_blank"
+        <a href="https://wa.me/919693743658" target="_blank"
             class="bg-green-500 hover:bg-green-600 text-white w-14 h-14 rounded-full flex items-center justify-center shadow-lg">
             <i class="fab fa-whatsapp text-2xl"></i>
         </a>
 
         {{-- Call Button --}}
-        <a href="#"
-            class="bg-blue-500 hover:bg-blue-600 text-white w-14 h-14 rounded-full flex items-center justify-center shadow-lg">
+        <a href="tel:9693743658"
+            class="bg-purple-600 hover:bg-purple-700 text-white w-14 h-14 rounded-full flex items-center justify-center shadow-lg">
             <i class="fas fa-phone text-2xl"></i>
         </a>
     </div>

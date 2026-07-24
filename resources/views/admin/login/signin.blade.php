@@ -42,7 +42,7 @@
         class="min-h-screen flex items-center justify-center bg-gradient-to-br from-primary/10 to-secondary/10 p-4">
         <div class="login-card w-full max-w-md bg-white rounded overflow-hidden">
             <div class="bg-primary p-6">
-                <h1 class="text-2xl font-bold text-yellow-200 text-center">CollinsKids Admin</h1>
+                <h1 class="text-2xl font-bold text-yellow-200 text-center">Kidzee Admin panel</h1>
                 <p class="text-yellow-200 text-center mt-2">Manage Students, Data, and Certificates</p>
             </div>
 
@@ -87,7 +87,7 @@
             </div>
 
             <div class="bg-gray-50 px-8 py-4 text-center border-t">
-                <p class="text-gray-600 text-sm">© 2025 CollinsKids. All rights reserved.</p>
+                <p class="text-gray-600 text-sm">© 2025 Kidzeeschool. All rights reserved.</p>
             </div>
         </div>
     </div>

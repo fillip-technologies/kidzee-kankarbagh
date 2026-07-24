@@ -2,9 +2,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>our team</title>
-    
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
+
 
 </head>
 
@@ -24,9 +24,9 @@
                     Learning through play, fun, and imagination!
                 </p>
                 <div class="mt-4 space-y-1 text-sm">
-                    <p>📍 Kankarbagh , PATNA</p>
-                    <p>📞 +91 0000000000, 0000000000</p>
-                    <p>✉️ KidzeeKankarbagh@gmail.com</p>
+                    <p>📍 Little Angel English School, Kidzee Kankarbagh, A-56, Beside Biryani Mahal, Patna, Bihar 800020</p>
+                    <p>📞 +91 9693743658, 9955294333</p>
+                    <p>✉️ kidzee206@kidzee.com</p>
                 </div>
             </div>
 
@@ -36,7 +36,8 @@
                 <ul class="space-y-2 text-sm">
                     <li><a href="{{ route('ourstory') }}" class="hover:text-pink-600 transition">About Us</a></li>
                     <li><a href="{{ route('playgroup') }}" class="hover:text-pink-600 transition">Programs</a></li>
-                    <li><a href="{{ route('facilitiescollinskids') }}#" class="hover:text-pink-600 transition">Facilities</a></li>
+                    <li><a href="{{ route('facilitiescollinskids') }}#"
+                            class="hover:text-pink-600 transition">Facilities</a></li>
                     <li><a href="{{route('gallerycollins')}}" class="hover:text-pink-600 transition">Gallery</a></li>
                     <li><a href="{{ route('contact') }}" class="hover:text-pink-600 transition">Contact</a></li>
                 </ul>
@@ -46,10 +47,10 @@
             <div>
                 <h3 class="text-lg font-semibold text-yellow-600 mb-3">Follow Us</h3>
                 <div class="flex justify-center md:justify-start space-x-5">
-                    <a href="#" class="text-pink-500 hover:scale-110 transition transform"><i class="fab fa-facebook-f text-xl"></i></a>
-                    <a href="#" class="text-blue-500 hover:scale-110 transition transform"><i class="fab fa-instagram text-xl"></i></a>
-                    <a href="#" class="text-purple-500 hover:scale-110 transition transform"><i class="fab fa-twitter text-xl"></i></a>
-                    <a href="#" class="text-green-500 hover:scale-110 transition transform"><i class="fab fa-whatsapp text-xl"></i></a>
+                    <a href="https://www.facebook.com/share/19HPiaeaSw/" target="_blank" class="text-blue-600 hover:scale-110 transition transform"><i
+                            class="fab fa-facebook-f text-xl"></i></a>
+                    <a href="https://wa.me/919693743658" target="_blank" class="text-green-500 hover:scale-110 transition transform"><i
+                            class="fab fa-whatsapp text-xl"></i></a>
                 </div>
             </div>
 
@@ -60,8 +61,7 @@
                 <form class="flex">
                     <input type="email" placeholder="Enter your email"
                         class="w-full px-3 py-2 rounded-l-lg border border-gray-300 focus:outline-none">
-                    <button type="submit"
-                        class="bg-pink-500 text-white px-4 rounded-r-lg hover:bg-pink-600 transition">
+                    <button type="submit" class="bg-pink-500 text-white px-4 rounded-r-lg hover:bg-pink-600 transition">
                         <i class="fas fa-paper-plane"></i>
                     </button>
                 </form>
@@ -70,12 +70,11 @@
 
         <!-- Bottom -->
         <div class="mt-10 border-t border-gray-300 pt-4 text-center text-sm text-gray-700">
-           © 2025 kidzee Kankarbagh. All Rights Reserved. | Privacy Policy |  Design & Develop by 
-    <a href="https://www.filliptechnologies.com" 
-       target="_blank" 
-       class="text-blue-600 hover:underline font-medium">
-       Fillip Technologies
-    </a>
+            © 2026 kidzee Kankarbagh. All Rights Reserved. | Privacy Policy | Design & Develop by
+            <a href="https://www.filliptechnologies.com" target="_blank"
+                class="text-blue-600 hover:underline font-medium">
+                Fillip Technologies
+            </a>
         </div>
     </div>
 </footer>

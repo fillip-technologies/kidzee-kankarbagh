@@ -8,8 +8,7 @@
                 <div class="absolute top-1/2 -translate-y-1/2 w-72 h-72 bg-pink-200 rounded-full -z-10"></div>
 
                 <!-- Kid Image -->
-                <img src="{{ asset('images/kidzee-school.jpg') }}"
-                    alt="Happy Kid"
+                <img src="{{ asset('images/kidzee-school.jpg') }}" alt="Happy Kid"
                     class="relative z-10 w-full rounded-lg">
 
 
@@ -39,7 +38,7 @@
 
                     <li class="flex items-center bg-blue-100 rounded-lg p-3 shadow-sm">
                         <i class="fas fa-check-circle text-blue-500 text-xl mr-3"></i>
-                        <span class="text-gray-800 font-medium">Organic & Freshly Prepared Snacks</span>
+                        <span class="text-gray-800 font-medium">Healthy & Hygienic Environment</span>
                     </li>
 
                     <li class="flex items-center bg-blue-100 rounded-lg p-3 shadow-sm">
@@ -49,7 +48,7 @@
 
                     <li class="flex items-center bg-blue-100 rounded-lg p-3 shadow-sm">
                         <i class="fas fa-check-circle text-blue-500 text-xl mr-3"></i>
-                        <span class="text-gray-800 font-medium">Enriching After-School Programs</span>
+                        <span class="text-gray-800 font-medium">Enriching Co-curricular Activities</span>
                     </li>
                 </ul>
             </div>

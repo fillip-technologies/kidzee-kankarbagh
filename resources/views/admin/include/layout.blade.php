@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@yield('title', 'LiteraValley - Admin Panel')</title>
+    <link rel="icon" href="data:;base64,=">
 
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -76,7 +77,7 @@
                     </div>
                     <div class="ml-3">
                         <p class="text-sm font-medium text-dark">Admin User</p>
-                        <p class="text-xs text-gray-500">admin@literavalley.in</p>
+                        <p class="text-xs text-gray-500">admin@kidzee</p>
                     </div>
                     <a href="{{ route('admin.logout') }}" class="ml-auto text-gray-500 hover:text-primary">
                         <i class="fas fa-sign-out-alt"></i>

@@ -21,13 +21,13 @@
 
             <!-- Contact Info -->
             <div class="glass-box rounded-3xl p-10 flex flex-col justify-center text-gray-700 shadow-lg">
-                <h3 class="text-2xl font-semibold text-[var(--secondary)] mb-6">Our Address & Contact</h3>
+                <h3 class="text-2xl font-bold text-pink-600 mb-6">Our Address & Contact</h3>
                 <p class="mb-4">
                     <strong>Address:</strong><br>
-                    Kidzee Kids Play School,<br>
-                    patna Road,<br>
-                    kidzee school Campus,<br>
-                    Patna, Bihar
+                    Little Angel English School,<br>
+                    Kidzee Kankarbagh, A-56,<br>
+                    Beside Biryani Mahal,<br>
+                    Patna, Bihar 800020
                 </p>
 
                 <div class="space-y-5">
@@ -37,7 +37,7 @@
                         </div>
                         <div>
                             <h4 class="font-semibold text-gray-800">Phone</h4>
-                            <p>+91-7808007208, 6204751840</p>
+                            <p>+91 9693743658, 9955294333</p>
                         </div>
                     </div>
 
@@ -47,7 +47,7 @@
                         </div>
                         <div>
                             <h4 class="font-semibold text-gray-800">Email</h4>
-                            <p>kidzee@gmail.com</p>
+                            <p>kidzee206@kidzee.com</p>
                         </div>
                     </div>
 
@@ -58,9 +58,8 @@
                         <div>
                             <h4 class="font-semibold text-gray-800">School Hours</h4>
                             <p>
-                                Monday - Friday: 9:00 AM - 1:00 PM<br>
-                                Saturday: Closed for students (Office Open 10:00 AM - 12:00 PM)<br>
-                                Sunday: Closed
+                                Monday - Friday: 8:30 AM - 12:30 PM <br>
+                                Saturday: Closed for students (Office Open 8:30 AM - 12:30 PM)
                             </p>
                         </div>
                     </div>
@@ -68,7 +67,7 @@
 
                 <div class="mt-8">
                     <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.301607436771!2d85.1640783!3d25.5948922!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed589757809975%3A0x44e98f0bd05bce62!2sKidzee%20Chitragupt%20Nagar%20Kankarbagh%20-%20Best%20Pre%20School%20in%20Kankarbagh%20Patna!5e0!3m2!1sen!2sin!4v1783322355905!5m2!1sen!2sin"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28787.997508410423!2d85.1163271743164!3d25.58830690000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed5994db6e3a93%3A0xfff8e8b4937824a1!2sKidzee%20-%20Kankarbagh!5e0!3m2!1sen!2sin!4v1784614532764!5m2!1sen!2sin"
                         width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                         referrerpolicy="strict-origin-when-cross-origin"></iframe>
                 </div>
