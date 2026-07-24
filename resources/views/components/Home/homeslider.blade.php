@@ -164,7 +164,7 @@
     <section class="py-16 px-6 text-center">
         <!-- Title -->
         <h2 class="comic-font text-4xl text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-600 mb-6">
-            Discover Our Educational Programs WITH
+            Discover Our Educational Programs
         </h2>
 
         <!-- Cards -->
