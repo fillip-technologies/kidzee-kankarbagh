@@ -24,7 +24,12 @@
                     Learning through play, fun, and imagination!
                 </p>
                 <div class="mt-4 space-y-1 text-sm">
-                    <p>📍 Little Angel English School, Kidzee Kankarbagh, A-56, Beside Biryani Mahal, Patna, Bihar 800020</p>
+                    <p>📍 
+                        Kidzee kankarbagh
+                        Little Angel English School 
+                       A-56,P.C Colony,Near Lohia Park,
+                        Beside Biryani Mahal
+                        PATNA BIHAR 800020</p>
                     <p>📞 +91 9693743658, 9955294333</p>
                     <p>✉️ kidzee206@kidzee.com</p>
                 </div>

@@ -3,10 +3,10 @@
             <p class="text-xs uppercase text-gray-500 font-medium tracking-wider">Navigation</p>
         </div>
 
-        <a href="#" class="sidebar-link active flex items-center px-6 py-3 text-dark hover:bg-blue-50 transition">
+        <!-- <a href="#" class="sidebar-link active flex items-center px-6 py-3 text-dark hover:bg-blue-50 transition">
             <i class="fas fa-chart-line mr-3 text-primary"></i>
             Dashboard
-        </a>
+        </a> -->
 
         <a href="{{ route('admin.slider.index') }}" class="sidebar-link flex items-center px-6 py-3 text-dark hover:bg-blue-50 transition">
             <i class="fas fa-building mr-3 text-blue-500"></i>
@@ -48,10 +48,10 @@
             Manage Transfer Certificate
         </a> --}}
 
-        <a href="{{ url('/teachers/list') }}" class="sidebar-link flex items-center px-6 py-3 text-dark hover:bg-blue-50 transition">
+        <!-- <a href="{{ url('/teachers/list') }}" class="sidebar-link flex items-center px-6 py-3 text-dark hover:bg-blue-50 transition">
             <i class="fas fa-blog mr-3 text-indigo-500"></i>
             Manage Our Educators
-        </a>
+        </a> -->
 
         {{-- <a href="{{ route('admin.achievers.index', ['type' => 'academic']) }}"
             class="sidebar-link flex items-center px-6 py-3 text-dark hover:bg-blue-50 transition">
