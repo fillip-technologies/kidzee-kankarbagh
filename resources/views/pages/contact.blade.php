@@ -66,7 +66,7 @@
                 </div>
 
                 <div class="mt-8">
-                   <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3598.116045001968!2d85.14702237539507!3d25.601059877453128!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjXCsDM2JzAzLjgiTiA4NcKwMDgnNTguNiJF!5e0!3m2!1sen!2sin!4v1789039440096!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1652.0723837815037!2d85.14831548295882!3d25.60162464267254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed590a1b6e4e2b%3A0xda281ac5946627c4!2sKidzee%20kankarbagh%20Little%20Angel%20English%20School!5e0!3m2!1sen!2sin!4v1789041168716!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
                 </div>
             </div <!-- Contact Form -->
             <div class="glass-box rounded-3xl p-10 shadow-lg">
